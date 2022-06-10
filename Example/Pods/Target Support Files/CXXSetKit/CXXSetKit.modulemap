@@ -1,0 +1,6 @@
+framework module CXXSetKit {
+  umbrella header "CXXSetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

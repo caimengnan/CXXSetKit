@@ -1,0 +1,6 @@
+framework module Pods_CXXSetKit_Example {
+  umbrella header "Pods-CXXSetKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

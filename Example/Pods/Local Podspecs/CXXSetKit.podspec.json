@@ -1,0 +1,22 @@
+{
+  "name": "CXXSetKit",
+  "version": "0.1.0",
+  "summary": "A short description of CXXSetKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caimengnan/CXXSetKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caimengnan": "570788791@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/caimengnan/CXXSetKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CXXSetKit/Classes/**/*"
+}
