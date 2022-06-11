@@ -1,5 +1,9 @@
 PODS:
-  - CXXSetKit (0.1.1)
+  - CXXSetKit (0.1.2):
+    - CXXSetKit/Rain (= 0.1.2)
+    - CXXSetKit/Snow (= 0.1.2)
+  - CXXSetKit/Rain (0.1.2)
+  - CXXSetKit/Snow (0.1.2)
 
 DEPENDENCIES:
   - CXXSetKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CXXSetKit: 1c54539844b939bc26314be3389ae64eeeb7ae27
+  CXXSetKit: 685f60393d8d5fde9d1a0c3d70480df29e5486ea
 
 PODFILE CHECKSUM: 2a28ce70bbc3ecd2be1198c666f41b9e5cbc04e0
 

@@ -12,6 +12,8 @@
 
 #import "HeadView.h"
 #import "Snow.h"
+#import "HeadView.h"
+#import "Snow.h"
 
 FOUNDATION_EXPORT double CXXSetKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CXXSetKitVersionString[];

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CXXSetKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of CXXSetKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Classes','CXXSetKit/Classes/**/*.{h,m}'
+  s.subspec 'Rain' do |ss|
+	ss.source_files = 'CXXSetKit/Classes/Rain/*'
+  end
+  
+  s.subspec 'Snow' do |ss|
+	ss.source_files = 'CXXSetKit/Classes/Snow/*'
+  end
   
   # s.resource_bundles = {
   #   'CXXSetKit' => ['CXXSetKit/Assets/*.png']

@@ -1,6 +1,6 @@
 {
   "name": "CXXSetKit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of CXXSetKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caimengnan/CXXSetKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caimengnan/CXXSetKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,5 +21,15 @@
   "source_files": [
     "Classes",
     "CXXSetKit/Classes/**/*.{h,m}"
+  ],
+  "subspecs": [
+    {
+      "name": "Rain",
+      "source_files": "CXXSetKit/Classes/Rain/*"
+    },
+    {
+      "name": "Snow",
+      "source_files": "CXXSetKit/Classes/Snow/*"
+    }
   ]
 }
