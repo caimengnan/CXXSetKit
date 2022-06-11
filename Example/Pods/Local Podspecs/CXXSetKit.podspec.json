@@ -1,6 +1,6 @@
 {
   "name": "CXXSetKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of CXXSetKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caimengnan/CXXSetKit",
@@ -13,10 +13,13 @@
   },
   "source": {
     "git": "https://github.com/caimengnan/CXXSetKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CXXSetKit/Classes/**/*"
+  "source_files": [
+    "Classes",
+    "CXXSetKit/Classes/**/*.{h,m}"
+  ]
 }
